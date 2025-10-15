@@ -5,12 +5,12 @@ class Program
 { 
     class Records
     {
-        public int AccountNumber;
+        public long AccountNumber;
         public string AccountName;
-        public string Username;
+        public string UserName;
         public decimal Balance;
     }
-    private static readonly Records _records = new Records();
+    private static List<Records> records = new List<Records>();
     private static void Main()
     {
         Console.WriteLine("Welcome to Fasco Bank LTD");
@@ -28,10 +28,11 @@ class Program
             {
                 case 1:
                     Console.WriteLine("Let's create an account for you");
-
+                    CreateAccount(records);
                     break;
                 case 2:
-                    Console.WriteLine("Login your account\nEnter username");
+                    Console.WriteLine("Login your account");
+                    FetchAccount(records);
                     break;
                 case 3:
                     Console.WriteLine("Thank you for banking with us...");
@@ -41,8 +42,33 @@ class Program
 
         else
         {
-            Console.WriteLine("Incorrect choice, try again later!");
+            Console.WriteLine("Incorrect choice, try again!!!");
             Main();
         }
     }
+        private static void CreateAccount(List<Records> records)
+        {
+        var random = new Random();
+        Console.Write("Input Fullname: ");
+        var accountName = Console.ReadLine();
+        Console.Clear();
+        Console.Write("Input Username: ");
+        var userName = Console.ReadLine();
+        Console.Clear();
+        long accountNumber = new Random().NextInt64(1000000000L, 9999999999L);
+        records.Add(new Records() { AccountNumber = accountNumber, AccountName = accountName, UserName = userName, Balance = 0.0m });
+        Console.WriteLine("Account Created.Details;");
+        Console.WriteLine($"AccountNumber:{accountNumber}");
+        Console.WriteLine("Press enter to go back to menu...");
+        Console.ReadLine();
+        Console.Clear();
+        Main();
+        }
+        private static void FetchAccount(List<Records> records) 
+        {
+        Console.Write("Enter username: ");
+        var input = Console.ReadLine();
+
+        }
+    
 }
