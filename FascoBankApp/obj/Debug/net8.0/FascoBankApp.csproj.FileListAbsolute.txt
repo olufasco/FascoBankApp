@@ -1,0 +1,15 @@
+C:\Users\USER\source\repos\FascoBankApp\FascoBankApp\obj\Debug\net8.0\FascoBankApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\FascoBankApp\FascoBankApp\obj\Debug\net8.0\FascoBankApp.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\FascoBankApp\FascoBankApp\obj\Debug\net8.0\FascoBankApp.AssemblyInfo.cs
+C:\Users\USER\source\repos\FascoBankApp\FascoBankApp\obj\Debug\net8.0\FascoBankApp.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\FascoBankApp\FascoBankApp\obj\Debug\net8.0\FascoBankApp.sourcelink.json
+C:\Users\USER\source\repos\FascoBankApp\FascoBankApp\bin\Debug\net8.0\FascoBankApp.exe
+C:\Users\USER\source\repos\FascoBankApp\FascoBankApp\bin\Debug\net8.0\FascoBankApp.deps.json
+C:\Users\USER\source\repos\FascoBankApp\FascoBankApp\bin\Debug\net8.0\FascoBankApp.runtimeconfig.json
+C:\Users\USER\source\repos\FascoBankApp\FascoBankApp\bin\Debug\net8.0\FascoBankApp.dll
+C:\Users\USER\source\repos\FascoBankApp\FascoBankApp\bin\Debug\net8.0\FascoBankApp.pdb
+C:\Users\USER\source\repos\FascoBankApp\FascoBankApp\obj\Debug\net8.0\FascoBankApp.dll
+C:\Users\USER\source\repos\FascoBankApp\FascoBankApp\obj\Debug\net8.0\refint\FascoBankApp.dll
+C:\Users\USER\source\repos\FascoBankApp\FascoBankApp\obj\Debug\net8.0\FascoBankApp.pdb
+C:\Users\USER\source\repos\FascoBankApp\FascoBankApp\obj\Debug\net8.0\FascoBankApp.genruntimeconfig.cache
+C:\Users\USER\source\repos\FascoBankApp\FascoBankApp\obj\Debug\net8.0\ref\FascoBankApp.dll
