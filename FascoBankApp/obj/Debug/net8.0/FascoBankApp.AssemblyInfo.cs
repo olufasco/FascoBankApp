@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FascoBankApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6aca2761f90bf31e368137f2b198b0b525df59f4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd2cec276b27172551accc2ed1e402998072bf05")]
 [assembly: System.Reflection.AssemblyProductAttribute("FascoBankApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FascoBankApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
